@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylelog.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login/Signin</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+		<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+		<div class="hd">
+			<img src="img/logo.png" alt="logo" />
+				<span id ="s1" class="text-white">INTENSE PLACEMENT Pvt. Ltd.<span><br><span id="s2"class ="text-white border border-light"> design your career with us</span>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end"  id="navbarNav">
+		  <ul class="navbar-nav" >
+			<li class="nav-item ">
+				<a class="nav-link text-white" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link text-white" href="about.html">About Us</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link text-white" href="employer.html">Employer's Zone</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link text-white " href="partner.html">Partner's Zone</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link text-white " href="candidate.html">Candidate Zone</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link text-white " href="#contact-box">Contact Us</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link text-white" href="log_sign.html">Login/Signup</a>
+				</li>
+		  </ul>
+		</div>
+	  </nav>
+    <div class="row">
+        <div class="column" style="background-color:#fff;">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+            <h5 class="new"><center>New User</h5></center><br>
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <!-- <label for="email">Email address:</label> -->
+                    <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                    <!-- <label for="pwd">Password:</label> -->
+                    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">Candidate
+                        </label>
+                    </div>
+                     <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">Partner
+                        </label>
+                    </div>
+					<div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">Employer
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                    <!-- <label class="form-check-label"> -->
+                        <!-- <input class="form-check-input" type="checkbox"> Remember Password -->
+                    </label>
+                </div>
+                <!-- <div class="user"> -->
+                   <br>
+                <button type="submit" class="btn-centered btn text-white">Submit</button>
+            </form>
+        </div>
+        </div>
+        <div class="column" style="background-color:#fff">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <h5 class="new"><center>Already have an account?</center></h5><br>
+                <!-- <p>Log In Here</p> -->
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <!-- <label for="email">Email address:</label> -->
+                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="pwd">Password:</label> -->
+                        <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                    </div>
+                    <div class="form-group form-check">
+                        <!-- <label class="form-check-label"> -->
+                        <input class="form-check-input" type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-centered btn text-white">Submit</button>
+				
+                </form>
+                <br>
+                
+            </div>
+      </div>
+    </div>
+</body>
+</html>
